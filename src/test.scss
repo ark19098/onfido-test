@@ -1,0 +1,5 @@
+@use '@onfido/castor';
+
+// will only output CSS for components included
+@include castor.Button();
+@include castor.Icon();

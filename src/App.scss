@@ -1,0 +1,91 @@
+@use '@onfido/castor';
+
+:root {
+  // "day" theme
+  @include castor.day();
+
+  // OR "night" theme
+  // @include castor.night();
+}
+
+@include castor.Button();
+@include castor.components();
+
+.regular600 {
+  @include castor.font('600-regular');
+  display: flex;
+}
+.regular500 {
+  @include castor.font('500-regular');
+  display: flex;
+}
+.regular400 {
+  @include castor.font('400-regular');
+  display: flex;
+}
+.bold600 {
+  @include castor.font('600-bold');
+  display: flex;
+}
+.bold500 {
+  @include castor.font('500-bold');
+  display: flex;
+}
+.bold400 {
+  @include castor.font('400-bold');
+}
+.bold300 {
+  @include castor.font('300-bold');
+}
+.bold200 {
+  @include castor.font('200-bold');
+}
+.bold100 {
+  @include castor.font('100-bold');
+}
+
+.just-cont-center {
+  justify-content: center
+}
+
+
+// .App {
+//   text-align: center;
+// }
+
+// .App-logo {
+//   height: 40vmin;
+//   pointer-events: none;
+// }
+
+// @media (prefers-reduced-motion: no-preference) {
+//   .App-logo {
+//     animation: App-logo-spin infinite 20s linear;
+//   }
+// }
+
+// .App-header {
+//   background-color: #282c34;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+//   color: white;
+// }
+
+// .App-link {
+//   color: #61dafb;
+// }
+
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
+
+
